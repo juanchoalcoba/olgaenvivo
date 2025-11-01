@@ -2,18 +2,10 @@ export default function About() {
   return (
     <section
       id="about"
-      className="w-full bg-white py-24 px-4 sm:px-6 lg:px-8"
+      className="w-full bg-white py-24 px-4 sm:px-6 lg:px-8 flex justify-center items-center"
     >
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* IMAGE */}
-        <div className="w-full h-auto">
-          {/* Reemplazá este img por <Image /> si usás Next */}
-          <img
-            src="todos.png"
-            alt="CEOs de OLGA"
-            className="w-full h-auto rounded-2xl shadow-lg object-cover"
-          />
-        </div>
 
         {/* TEXT */}
         <div className="flex flex-col gap-6">
@@ -33,6 +25,14 @@ export default function About() {
             digital, buscamos conectar, inspirar y crear un espacio hecho por y
             para la gente.
           </p>
+        </div>
+        <div className="w-full h-auto">
+          {/* Reemplazá este img por <Image /> si usás Next */}
+          <img
+            src="todos.png"
+            alt="CEOs de OLGA"
+            className="w-full h-auto rounded-2xl shadow-lg object-cover"
+          />
         </div>
       </div>
     </section>

@@ -21,10 +21,7 @@ export default function Navbar() {
           <div className="flex items-center gap-4">
             <a href="#inicio" className="flex items-center gap-3">
               {/* Inline SVG logo placeholder - reemplazalo con tu logo o <img /> */}
-              <svg width="36" height="36" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
-                <rect x="0" y="0" width="100" height="100" rx="20" fill="#E11D48" />
-                <text x="50%" y="55%" dominantBaseline="middle" textAnchor="middle" fontSize="42" fontFamily="Inter, sans-serif" fill="white">O</text>
-              </svg>
+              <img src="olgaenvivo.png" className="w-16" alt="" />
               <span className="sr-only">OLGA Argentina — Inicio</span>
               <span className="hidden sm:inline-block font-semibold text-lg text-gray-800">OLGA</span>
             </a>
