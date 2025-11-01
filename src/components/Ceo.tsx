@@ -25,14 +25,14 @@ export default function GalleryAboutReverse() {
         {/* IMAGES RIGHT */}
         <div className="grid grid-cols-2 grid-rows-2 gap-4 h-[500px] order-1 md:order-2">
           {/* Big image top left spanning full width (for asymmetric layout) */}
+
           <div className="col-span-2 row-span-1 overflow-hidden rounded-2xl shadow-lg">
             <img
-              src="CEO1.jpeg"
+              src="https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fmedia.telebajocero.com%2Fp%2Fcb8d3b6b84c28743de20b00137fdf0ff%2Fadjuntos%2F225%2Fimagenes%2F000%2F938%2F0000938734%2F1200x675%2Fsmart%2Folgajpeg.jpeg&sp=1761984775T9a4276f93d40bf4018d13f62495ef336c3b94fd79a99c74d90879f3bb4f4d901"
               alt="OLGA Estudio principal"
               className="w-full h-full object-cover"
             />
           </div>
-
           {/* Bottom left smaller */}
           <div className="overflow-hidden rounded-2xl shadow-lg">
             <img
@@ -47,7 +47,7 @@ export default function GalleryAboutReverse() {
             <img
               src="olgaenvivo.png"
               alt="Comunidad OLGA en vivo"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover drop-shadow-[0_0_30px_#2213gb]"
             />
           </div>
         </div>

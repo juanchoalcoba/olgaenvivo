@@ -11,11 +11,11 @@ export default function App() {
     <div className="min-h-screen bg-black text-white pt-24 flex items-center justify-center px-6">
       <div className="max-w-7xl mx-auto flex md:flex-row gap-24 items-center flex-col-reverse">
         {/* Text */}
-        <div className="w-138">
-          <h1 className="text-5xl md:text-6xl font-extrabold mb-6 leading-tight">
+        <div className="">
+          <h1 className="text-5xl md:text-6xl w-125 font-extrabold mb-6 leading-tight">
             Bienvenidos a <span className="text-blue-400">Olga</span> en Vivo
           </h1>
-          <p className="text-lg text-gray-300 mb-8">
+          <p className="text-lg text-gray-300 mb-8 w-125">
             El nuevo hogar digital de la radio más innovadora de Argentina.
             Conectate, mirá y viví Olga en una experiencia web de otro nivel.
           </p>
