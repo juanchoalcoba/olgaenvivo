@@ -6,7 +6,7 @@ const Hero = () => {
         {/* Text */}
         <div className="w-96 md:w-138 flex justify-evenly items-center  flex-col">
           <h1 className="text-5xl md:text-6xl font-extrabold mb-0 md:mb-6 leading-tight text-center md:text-left ">
-            Bienvenidos a <span className="text-blue-600">OLGA</span> en Vivo
+            Bienvenidos a <span className="text-blue-500">OLGA</span> en Vivo
           </h1>
           <p className="text-lg text-gray-300 mb-8 p-8 md:p-0 text-center md:text-left">
             El nuevo hogar digital de la radio más innovadora de Argentina.
