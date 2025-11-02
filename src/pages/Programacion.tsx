@@ -72,13 +72,13 @@ const schedule = [
     days: "Martes",
     time: "16:00",
     title: "Paren a Olga",
-    img: "/shows/paren.jpg",
+    img: "/grilla/paren.jpeg",
   },
   {
     days: "Martes",
     time: "18:00",
     title: "GOL GANA",
-    img: "/shows/golgana.jpg",
+    img: "/grilla/golgana.png",
   },
 
   // Miércoles
@@ -111,7 +111,7 @@ const schedule = [
     days: "Miércoles",
     time: "16:30",
     title: "El fin del mundo",
-    img: "/shows/golgana.jpg",
+    img: "/grilla/findelmundo.png",
   },
 
   // Jueves
@@ -176,7 +176,7 @@ const schedule = [
     days: "Viernes",
     time: "16:30",
     title: "El fin del mundo",
-    img: "/shows/golgana.jpg",
+    img: "/grilla/findelmundo.png",
   },
 ];
 
