@@ -10,7 +10,7 @@ export default function About() {
         {/* TEXT */}
         <div className="flex flex-col gap-6  justify-center ">
           <h2 className="text-3xl sm:text-4xl text-center md:text-left font-bold text-gray-50">
-            STAFF 2026 de OLGA
+            OLGA 2026 
           </h2>
 
           <p className="text-lg text-gray-50 leading-relaxed text-center md:text-left">
