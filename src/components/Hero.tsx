@@ -1,15 +1,13 @@
 
 const Hero = () => {
   return (
-    <div  className="min-h-screen bg-black text-white pt-24 flex items-center justify-center  overflow-x-hidden p-6">
-       <div
+    <div className="min-h-screen bg-black text-white pt-24 flex items-center justify-center  overflow-x-hidden p-6">
+      <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: "url('/todos2.png')", opacity: "20%" }}
       />
 
-            <div className="absolute inset-0  from-black/80 via-[#0F4392]/40 to-black/90" />
-
-
+      <div className="absolute inset-0  from-black/80 via-[#0F4392]/40 to-black/90" />
 
       <div className="max-w-7xl mx-auto flex md:flex-row gap-12 md:gap-24 items-center flex-col-reverse">
         {/* Text */}
@@ -21,9 +19,14 @@ const Hero = () => {
             El nuevo hogar digital de la radio más innovadora de Argentina.
             Conectate, mirá y viví Olga en una experiencia web de otro nivel.
           </p>
-          <button className="px-6 py-3 bg-[#0F4392] hover:bg-blue-600 self-center md:self-start rounded-full font-semibold transition-all ">
+          <a
+            href="https://www.youtube.com/@olgaenvivo_"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-6 py-3 bg-[#0F4392] hover:bg-blue-600 self-center md:self-start rounded-full font-semibold transition-all"
+          >
             Ver Programación
-          </button>
+          </a>
         </div>
 
         {/* Image */}
