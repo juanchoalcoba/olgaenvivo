@@ -45,7 +45,7 @@ export default function GalleryAboutReverse() {
           {/* Bottom right smaller */}
           <div className="overflow-hidden  rounded-2xl shadow-lg">
             <img
-              src="olgaenvivo.png"
+              src="gente.jpeg"
               alt="Comunidad OLGA en vivo"
               className="w-full h-full object-cover "
             />

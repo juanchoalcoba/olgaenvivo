@@ -6,7 +6,7 @@ type NavItem = { name: string; href: string };
 
 const NAV_ITEMS: NavItem[] = [
   { name: "Inicio", href: "/" },
-  { name: "Programación", href: "https://www.youtube.com/@olgaenvivo_" },
+  { name: "Programación", href: "/programacion" },
   { name: "TiendaOlga", href: "https://olga.store/" },
   { name: "Eventos", href: "#eventos" },
   { name: "Staff", href: "/staff" },

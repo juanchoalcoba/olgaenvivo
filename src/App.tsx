@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Staff from "./pages/Staff";
 import './App.css'
+import OlgaGrid from "./pages/Programacion";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/staff" element={<Staff />} />
+          <Route path="/programacion" element={<OlgaGrid />} />
         </Routes>
       </div>
 
