@@ -57,7 +57,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="hhttps://www.twitch.tv/olgaenvivo?lang=es"
+            href="https://www.twitch.tv/olgaenvivo?lang=es"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Twitch"
