@@ -23,7 +23,7 @@ const Hero = () => {
             href="https://www.youtube.com/@olgaenvivo_"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-6 py-3 bg-[#0F4392] hover:bg-blue-600 self-center md:self-start rounded-full z-100 font-semibold transition-all"
+            className="px-6 py-3 bg-[#0F4392] hover:bg-blue-600 self-center md:self-start rounded-full z-30 font-semibold transition-all"
           >
             Ver Programación
           </a>
