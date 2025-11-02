@@ -1,4 +1,3 @@
-import Typed from "react-typed";
 
 const Hero = () => {
   return (
