@@ -14,16 +14,18 @@ export default function About() {
           </h2>
 
           <p className="text-lg text-gray-50 leading-relaxed text-center md:text-left">
-            OLGA nació como una visión compartida: llevar comunicación fresca,
-            humor, cultura y comunidad a cada rincón. Nuestro equipo crea con
-            pasión, autenticidad y una energía que impulsa cada proyecto a
-            nuevas alturas.
+            En 2026, OLGA dará un nuevo salto creativo con un staff formado por
+            voces frescas, talento disruptivo y artistas que marcan tendencia.
+            Un equipo diverso, apasionado y comprometido con reinventar la forma
+            de comunicar, entretener y conectar con la audiencia.
           </p>
 
           <p className="text-gray-50 text-center md:text-left">
-            Desde el estudio al streaming, de eventos en vivo a contenido
-            digital, buscamos conectar, inspirar y crear un espacio hecho por y
-            para la gente.
+            Productores, creadores, comediantes, periodistas, realizadores y
+            mentes brillantes que comparten una misma visión: hacer contenido
+            auténtico, innovador y lleno de energía, manteniendo siempre la
+            esencia que hace de OLGA un espacio único en la escena cultural y
+            digital de la región.
           </p>
         </div>
         <div className="w-full h-auto">
