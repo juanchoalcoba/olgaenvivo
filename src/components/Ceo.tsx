@@ -6,17 +6,17 @@ export default function GalleryAboutReverse() {
     >
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* TEXT LEFT */}
-        <div className="flex flex-col gap-6 order-2 md:order-1">
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
+        <div className="flex flex-col gap-6 justify-center ">
+          <h2 className="text-3xl sm:text-4xl text-center md:text-left font-bold text-gray-900">
             Comunidad & Energía
           </h2>
 
-          <p className="text-lg text-gray-700 leading-relaxed">
+          <p className="text-lg text-gray-700 leading-relaxed text-center md:text-left">
             OLGA es movimiento, encuentro, risas y conexión real. No es sólo un
             estudio: es una comunidad que vibra, crea y crece.
           </p>
 
-          <p className="text-gray-600">
+          <p className="text-gray-600 text-center md:text-left">
             Cada proyecto, cada streaming y cada evento nace desde la creatividad,
             el esfuerzo colectivo y el amor por lo que hacemos.
           </p>
@@ -28,7 +28,7 @@ export default function GalleryAboutReverse() {
 
           <div className="col-span-2 row-span-1 overflow-hidden rounded-2xl shadow-lg">
             <img
-              src="https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fmedia.telebajocero.com%2Fp%2Fcb8d3b6b84c28743de20b00137fdf0ff%2Fadjuntos%2F225%2Fimagenes%2F000%2F938%2F0000938734%2F1200x675%2Fsmart%2Folgajpeg.jpeg&sp=1761984775T9a4276f93d40bf4018d13f62495ef336c3b94fd79a99c74d90879f3bb4f4d901"
+              src="estudio.jpeg"
               alt="OLGA Estudio principal"
               className="w-full h-full object-cover"
             />
@@ -36,18 +36,18 @@ export default function GalleryAboutReverse() {
           {/* Bottom left smaller */}
           <div className="overflow-hidden rounded-2xl shadow-lg">
             <img
-              src="todos.png"
+              src="todos2.png"
               alt="Behind the scenes OLGA"
               className="w-full h-full object-cover"
             />
           </div>
 
           {/* Bottom right smaller */}
-          <div className="overflow-hidden bg-blue-950 rounded-2xl shadow-lg">
+          <div className="overflow-hidden  rounded-2xl shadow-lg">
             <img
               src="olgaenvivo.png"
               alt="Comunidad OLGA en vivo"
-              className="w-full h-full object-cover drop-shadow-[0_0_30px_#2213gb]"
+              className="w-full h-full object-cover "
             />
           </div>
         </div>

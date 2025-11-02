@@ -8,19 +8,19 @@ export default function About() {
         {/* IMAGE */}
 
         {/* TEXT */}
-        <div className="flex flex-col gap-6">
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
+        <div className="flex flex-col gap-6  justify-center ">
+          <h2 className="text-3xl sm:text-4xl text-center md:text-left font-bold text-gray-900">
             STAFF 2025 de OLGA
           </h2>
 
-          <p className="text-lg text-gray-700 leading-relaxed">
+          <p className="text-lg text-gray-700 leading-relaxed text-center md:text-left">
             OLGA nació como una visión compartida: llevar comunicación fresca,
             humor, cultura y comunidad a cada rincón. Nuestro equipo crea con
             pasión, autenticidad y una energía que impulsa cada proyecto a
             nuevas alturas.
           </p>
 
-          <p className="text-gray-600">
+          <p className="text-gray-600 text-center md:text-left">
             Desde el estudio al streaming, de eventos en vivo a contenido
             digital, buscamos conectar, inspirar y crear un espacio hecho por y
             para la gente.

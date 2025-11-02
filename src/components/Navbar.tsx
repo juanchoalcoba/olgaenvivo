@@ -43,7 +43,7 @@ export default function Navbar() {
           {/* Right actions + Mobile button */}
           <div className="flex items-center gap-3">
             {/* Example action (puedes añadir iconos) */}
-            <a href="#contacto" className="hidden md:inline-block text-sm font-medium px-4 py-2 rounded-lg bg-blue-900 text-white hover:bg-pink-700">Contacto</a>
+            <a href="#contacto" className="hidden md:inline-block text-sm font-medium px-4 py-2 rounded-lg bg-blue-900 text-white hover:bg-red-500">Contacto</a>
 
             {/* Mobile menu button */}
             <button
