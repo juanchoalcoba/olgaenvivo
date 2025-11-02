@@ -34,7 +34,7 @@ const schedule = [
     days: "Lunes",
     time: "16:30",
     title: "El fin del mundo",
-    img: "/shows/golgana.jpg",
+    img: "/grilla/findelmundo.png",
   },
 
   // Martes
