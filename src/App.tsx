@@ -1,27 +1,26 @@
-import "./App.css";
-import About from "./components/About";
-import GalleryAboutReverse from "./components/Ceo";
-import Footer from "./components/Footer";
-import Hero from "./components/Hero";
+import { Routes, Route } from "react-router-dom";
+
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
-// Home.tsx
+import Home from "./pages/Home";
+import Staff from "./pages/Staff";
+import './App.css'
+
 export default function App() {
-
-  
-
-
-
   return (
     <>
-    <Navbar />
-    <Hero />
+      <Navbar />
+      
+      {/* Offset para la navbar fija */}
+      <div>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/staff" element={<Staff />} />
+        </Routes>
+      </div>
 
-    <main>
-      <GalleryAboutReverse />
-      <About />
-    </main>
-    <Footer />
+      <Footer />
     </>
   );
 }

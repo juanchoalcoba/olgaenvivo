@@ -2,21 +2,21 @@ export default function GalleryAboutReverse() {
   return (
     <section
       id="gallery-about"
-      className="w-full bg-gray-50 py-24 px-4 sm:px-6 lg:px-8"
+      className="w-full bg-black py-24 px-4 sm:px-6 lg:px-8"
     >
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* TEXT LEFT */}
         <div className="flex flex-col gap-6 justify-center ">
-          <h2 className="text-3xl sm:text-4xl text-center md:text-left font-bold text-gray-900">
+          <h2 className="text-3xl sm:text-4xl text-center md:text-left font-bold text-gray-50">
             Comunidad & Energía
           </h2>
 
-          <p className="text-lg text-gray-700 leading-relaxed text-center md:text-left">
+          <p className="text-lg text-gray-50 leading-relaxed text-center md:text-left">
             OLGA es movimiento, encuentro, risas y conexión real. No es sólo un
             estudio: es una comunidad que vibra, crea y crece.
           </p>
 
-          <p className="text-gray-600 text-center md:text-left">
+          <p className="text-gray-50 text-center md:text-left">
             Cada proyecto, cada streaming y cada evento nace desde la creatividad,
             el esfuerzo colectivo y el amor por lo que hacemos.
           </p>

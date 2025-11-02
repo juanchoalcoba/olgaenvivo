@@ -13,3 +13,7 @@
 .animate-subtle-pulse {
   animation: subtle-pulse 4s ease-in-out infinite;
 }
+
+BODY {
+  background-color: black;
+}

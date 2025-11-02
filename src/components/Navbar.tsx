@@ -3,10 +3,11 @@ import { useState } from "react";
 type NavItem = { name: string; href: string };
 
 const NAV_ITEMS: NavItem[] = [
-  { name: "Inicio", href: "#inicio" },
-  { name: "Programación", href: "#programacion" },
-  { name: "TiendaOlga", href: "#tienda" },
+  { name: "Inicio", href: "/" },
+  { name: "Programación", href: "https://www.youtube.com/@olgaenvivo_" },
+  { name: "TiendaOlga", href: "https://olga.store/" },
   { name: "Eventos", href: "#eventos" },
+  { name: "Staff", href: "Staff" },
   
 ];
 
@@ -31,6 +32,7 @@ export default function Navbar() {
           <nav className="hidden md:flex items-center gap-6">
             {NAV_ITEMS.map((item) => (
               <a
+              target=""
                 key={item.name}
                 href={item.href}
                 className="px-2 py-1 text-sm font-medium text-gray-700 hover:text-gray-900 hover:underline"
@@ -43,7 +45,7 @@ export default function Navbar() {
           {/* Right actions + Mobile button */}
           <div className="flex items-center gap-3">
             {/* Example action (puedes añadir iconos) */}
-            <a href="#contacto" className="hidden md:inline-block text-sm font-medium px-4 py-2 rounded-lg bg-blue-900 text-white hover:bg-red-700">Contacto</a>
+            <a href="#contacto" className="hidden md:inline-block text-sm font-medium px-4 py-2 rounded-lg bg-blue-900 text-white hover:bg-[#DD1717]">Contacto</a>
 
             {/* Mobile menu button */}
             <button
