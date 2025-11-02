@@ -9,7 +9,7 @@ const Hero = () => {
 
       <div className="absolute inset-0  from-black/80 via-[#0F4392]/40 to-black/90" />
 
-      <div className="max-w-7xl mx-auto flex md:flex-row  mb-12 md:gap-24 items-center flex-col-reverse">
+      <div className="max-w-7xl mx-auto flex md:flex-row md:mt-8  mb-12 md:gap-24 items-center flex-col-reverse">
         {/* Text */}
         <div className="w-96 md:w-138 flex justify-evenly items-center  flex-col">
           <h1 className="text-4xl md:text-6xl p-4 md:p-0 font-extrabold mb-0 md:mb-6 leading-tight text-center md:text-left">
@@ -34,7 +34,7 @@ const Hero = () => {
           <img
             src="/olgaenvivo.png"
             alt="Olga en Vivo"
-            className="w-72 md:w-96 drop-shadow-[0_0_30px_#2563eb] animate-subtle-pulse"
+            className="w-72 md:w-96 drop-shadow-[0_0_30px_#2563eb]  animate-subtle-pulse"
           />
         </div>
       </div>
