@@ -7,7 +7,7 @@ const NAV_ITEMS: NavItem[] = [
   { name: "Programación", href: "#programacion" },
   { name: "TiendaOlga", href: "#tienda" },
   { name: "Eventos", href: "#eventos" },
-  { name: "Contacto", href: "#contacto" },
+  
 ];
 
 export default function Navbar() {
