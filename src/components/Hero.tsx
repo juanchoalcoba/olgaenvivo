@@ -4,7 +4,7 @@ const Hero = () => {
     <div  className="min-h-screen bg-black text-white pt-24 flex items-center justify-center  overflow-x-hidden p-6">
        <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('/todos2.png')", opacity: "10%" }}
+        style={{ backgroundImage: "url('/todos2.png')", opacity: "20%" }}
       />
 
             <div className="absolute inset-0  from-black/80 via-[#0F4392]/40 to-black/90" />
