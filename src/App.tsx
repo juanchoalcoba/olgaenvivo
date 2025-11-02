@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import Staff from "./pages/Staff";
 import './App.css'
 import OlgaGrid from "./pages/Programacion";
+import EventsList from "./pages/EventList";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/staff" element={<Staff />} />
           <Route path="/programacion" element={<OlgaGrid />} />
+          <Route path="/eventos" element={<EventsList />} />
         </Routes>
       </div>
 

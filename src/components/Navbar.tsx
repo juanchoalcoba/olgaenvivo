@@ -8,7 +8,7 @@ const NAV_ITEMS: NavItem[] = [
   { name: "Inicio", href: "/" },
   { name: "Programación", href: "/programacion" },
   { name: "TiendaOlga", href: "https://olga.store/" },
-  { name: "Eventos", href: "#eventos" },
+  { name: "Eventos", href: "/eventos" },
   { name: "Staff", href: "/staff" },
   
 ];
