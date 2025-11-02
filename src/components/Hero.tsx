@@ -2,6 +2,15 @@
 const Hero = () => {
   return (
     <div  className="min-h-screen bg-black text-white pt-24 flex items-center justify-center  overflow-x-hidden p-6">
+       <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: "url('/todos2.png')", opacity: "10%" }}
+      />
+
+            <div className="absolute inset-0  from-black/80 via-[#0F4392]/40 to-black/90" />
+
+
+
       <div className="max-w-7xl mx-auto flex md:flex-row gap-12 md:gap-24 items-center flex-col-reverse">
         {/* Text */}
         <div className="w-96 md:w-138 flex justify-evenly items-center  flex-col">

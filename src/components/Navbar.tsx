@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
+
 
 type NavItem = { name: string; href: string };
 
@@ -31,14 +33,14 @@ export default function Navbar() {
           {/* Desktop nav */}
           <nav className="hidden md:flex items-center gap-6">
             {NAV_ITEMS.map((item) => (
-              <a
+              <Link
               target=""
                 key={item.name}
-                href={item.href}
+                to={item.href}
                 className="px-2 py-1 text-sm font-medium text-gray-700 hover:text-gray-900 hover:underline"
               >
                 {item.name}
-              </a>
+              </Link>
             ))}
           </nav>
 
