@@ -72,14 +72,14 @@ export default function Navbar() {
       <div className={`md:hidden transition-max-h duration-300 overflow-hidden ${open ? 'max-h-96' : 'max-h-0'}`}>
         <div className="px-4 pt-2 pb-4 space-y-1">
           {NAV_ITEMS.map((item) => (
-            <a
+            <Link
               key={item.name}
-              href={item.href}
+              to={item.href}
               onClick={() => setOpen(false)}
               className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50"
             >
               {item.name}
-            </a>
+            </Link>
           ))}
           <a href="#contacto" className="block px-3 py-2 rounded-md text-base font-medium text-white bg-red-700 text-center">Contacto</a>
         </div>
