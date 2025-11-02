@@ -22,12 +22,12 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center gap-4">
-            <a href="#inicio" className="flex items-center gap-3">
+            <Link to="/" className="flex items-center gap-3">
               {/* Inline SVG logo placeholder - reemplazalo con tu logo o <img /> */}
               <img src="olgaenvivo.png" className="w-16" alt="" />
               <span className="sr-only">OLGA Argentina — Inicio</span>
               <span className="hidden sm:inline-block font-semibold text-lg text-gray-800">OLGA</span>
-            </a>
+            </Link>
           </div>
 
           {/* Desktop nav */}
