@@ -11,8 +11,8 @@ export default function Staff() {
   ];
 
   return (
-    <div className="min-h-screen bg-black text-white pt-32 pb-20 px-6">
-      <h1 className="text-center text-5xl sm:text-6xl font-montserrat mb-14 text-white 2026 
+    <div className="min-h-screen  text-white pt-32 pb-20 px-6">
+      <h1 className="text-center text-5xl sm:text-6xl font-bold mb-14 text-white 2026 
 ">
         Staff OLGA 2026
       </h1>

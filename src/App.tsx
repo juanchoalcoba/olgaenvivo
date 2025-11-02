@@ -10,6 +10,7 @@ import OlgaGrid from "./pages/Programacion";
 import EventsList from "./pages/EventList";
 
 export default function App() {
+  
   return (
     <>
       <Navbar />

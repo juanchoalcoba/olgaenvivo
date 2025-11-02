@@ -189,7 +189,7 @@ export default function OlgaGrid() {
   );
 
   return (
-    <div className="min-h-screen bg-black text-white p-6 pt-24">
+    <div className="min-h-screen  text-white p-6 pt-24">
       <h2 className="text-4xl font-bold mb-8 text-center flex flex-col md:flex-row items-center justify-center gap-2">
         <FaYoutube className="text-red-500 w-10 h-10 hover:scale-110 transition-all cursor-pointer" />
         Programación OLGA
