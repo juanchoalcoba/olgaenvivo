@@ -8,8 +8,28 @@ import Staff from "./pages/Staff";
 import './App.css'
 import OlgaGrid from "./pages/Programacion";
 import EventsList from "./pages/EventList";
+import { useEffect } from "react";
+import Lenis from "@studio-freight/lenis";
+
 
 export default function App() {
+
+  useEffect(() => {
+    const lenis = new Lenis();
+
+    // Aquí tipamos `e` como un objeto cualquiera (puedes ajustarlo si conoces la forma exacta)
+    lenis.on('scroll', (e: unknown) => {
+      console.log(e);
+    });
+
+    // Tipamos `time` como número
+    function raf(time: number) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+
+    requestAnimationFrame(raf);
+  }, []);
   
   return (
     <>
